@@ -18,3 +18,7 @@ Deploy a static website using GitHub action and s3 bucket
 - Commit and push code to the github repository
 - Code will automatically push to s3 bucket
 - Copy obejct URL of index.html and paste in Browser
+
+ ```json
+ffff
+ff
