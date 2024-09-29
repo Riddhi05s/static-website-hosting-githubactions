@@ -144,11 +144,10 @@ jobs:
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
-        aws-region: ap-south-1
+        aws-region: ap-south-1 
 
     - name: Deploy static site to S3 bucket
       run: aws s3 sync . s3://adinath-web-hosting --delete
-
 ``` 
       
 - Create s3 bucket
