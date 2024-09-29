@@ -3,7 +3,7 @@ Deploy a static website using GitHub action and s3 bucket
 - Create an ec2 instance
 - Create a project repository and index.html
 
-```json
+```html
 <!DOCTYPE html>
  <html lang="en">
    <head>
@@ -124,7 +124,7 @@ Deploy a static website using GitHub action and s3 bucket
 - Add ssh-key of EC2 instance to github ssh-keys
 - Create one empty github repository
 - Upload main.yml in project-repo >> .github >> workflows >> main.yml
-```json
+```yaml
 name: Upload Website
 
 on:
